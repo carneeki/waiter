@@ -21,7 +21,7 @@ in a batch file something like this:
     waiter 7200
     c:\myotherfile.exe
 
-Enjoy :)
+Really, I've spent more time authoring this documentation than the script. Now go and enjoy :)
 
 Copyright / License
 ===================
