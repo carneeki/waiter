@@ -14,9 +14,11 @@ def main():
 
 def waitdown():
 	count = int(sys.argv[1]) -1
+        b = ''
+        s = ''
 	while(count >= 0):
-		s = "Resuming in " + str(count) + "s"
-		sys.stdout.write('\r' + s)
+		s = "Resuming in " + str(count).zfill(5) + "s"
+		sys.stdout.write('\r%s' % s)
 		sys.stdout.flush()
 	 	count = count - 1
 		time.sleep(1)
